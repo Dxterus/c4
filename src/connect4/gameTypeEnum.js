@@ -1,5 +1,5 @@
 module.exports = {
     NORMAL: 'normal',
-    FOOD: 'FOOD',
-    JULYFOUR: 'JULY'
+    FOOD: 'food',
+    JULYFOUR: 'july'
 };
