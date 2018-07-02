@@ -13,7 +13,7 @@ module.exports = {
     },
     normal: {
         circle: {
-            red: ':earth_africa',
+            red: ':earth_africa:',
             blue: ':new_moon:',
             white: ':white_circle:'
         },
@@ -23,28 +23,28 @@ module.exports = {
             neutral: ':neutral:'
         }
     },
-    halloween: {
+    food: {
         circle: {
-            red: ':ghost:',
-            blue: ':jack_o_lantern:',
-            white: ':black_circle:'
+            red: ':rice_cracker:',
+            blue: ':rice_ball:',
+            white: ':white_circle:'
         },
-        celebrate: ':skull:',
-        fire: ':crystal_ball:',
+        celebrate: ':beers:',
+        fire: ':fire:',
         face: {
             neutral: ':no_mouth:'
         }
     },
-    christmas: {
+    julyfour: {
         circle: {
-            red: ':santa:',
-            blue: ':christmas_tree:',
-            white: ':snowflake:'
+            red: ':fireworks:',
+            blue: ':sparkler:',
+            white: ':white_large_square:'
         },
         celebrate: ':gift:',
         fire: ':ribbon:',
         face: {
-            neutral: ':snowman:'
+            neutral: ':neutral:'
         }
     }
 };

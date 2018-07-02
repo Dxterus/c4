@@ -31,10 +31,10 @@ class Bot {
                 MsgHelper.containsUserMention(e.text, this.slack.self.id) &&
                 MsgHelper.containsWord(e.text, 'start'))
             .map(e => {
-                if (MsgHelper.containsWord(e.text, 'boo')) {
-                    this.gameType = GameTypeEnum.HALLOWEEN;
-                } else if (MsgHelper.containsWord(e.text, 'xmas')) {
-                    this.gameType = GameTypeEnum.CHRISTMAS;
+                if (MsgHelper.containsWord(e.text, 'food')) {
+                    this.gameType = GameTypeEnum.FOOD;
+                } else if (MsgHelper.containsWord(e.text, 'july')) {
+                    this.gameType = GameTypeEnum.JULYFOUR;
                 } else {
                     this.gameType = GameTypeEnum.NORMAL;
                 }
